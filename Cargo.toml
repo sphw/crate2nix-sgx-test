@@ -1,0 +1,12 @@
+[package]
+name = "sgx-test"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#futures = { git = "https://github.com/mesalock-linux/futures-rs-sgx.git", rev = "d54882f24ddf7d61327a067b2f608d6940a36444", features = ["mesalock_sgx"] }
+async-trait = "0.1"
+
+
